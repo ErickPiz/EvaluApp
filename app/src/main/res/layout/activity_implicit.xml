@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="pizware.evaluapp.activities.ImplicitActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+        android:id="@+id/txtPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="43dp"
+        android:ems="10"
+        android:inputType="phone"
+        />
+
+        <ImageButton
+        android:id="@+id/ibtnPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/ic_menu_call"
+        android:layout_alignBottom="@+id/txtPhone"
+        android:layout_toEndOf="@+id/txtPhone" />
+
+        <EditText
+        android:id="@+id/txtWeb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="53dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_below="@+id/txtPhone"
+        android:layout_alignStart="@+id/txtPhone" />
+
+        <ImageButton
+        android:id="@+id/ibtnWeb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/ic_menu_view"
+        android:layout_alignBottom="@+id/txtWeb"
+        android:layout_toEndOf="@+id/txtWeb" />
+
+
+    </RelativeLayout>
+
+    <ImageButton
+        android:id="@+id/ibtnCamera"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@color/colorPrimary"
+        android:src="@android:drawable/ic_menu_camera" />
+
+</RelativeLayout>
