@@ -20,11 +20,11 @@ public class User extends RealmObject {
 
     }
 
-    public User(String user, String password, String email, boolean administrador, String hint) {
+    public User(String user, String password, String email, boolean admin, String hint) {
         this.user = user;
         this.password = password;
         this.email = email;
-        this.admin = administrador;
+        this.admin = admin;
         this.hint = hint;
     }
 
