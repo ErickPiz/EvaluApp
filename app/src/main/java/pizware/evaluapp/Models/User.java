@@ -16,9 +16,7 @@ public class User extends RealmObject {
     private boolean admin;
     private String hint;
 
-    public User() {
-
-    }
+    public User() {}
 
     public User(String user, String password, String email, boolean admin, String hint) {
         this.user = user;
@@ -26,7 +24,7 @@ public class User extends RealmObject {
         this.email = email;
         this.admin = admin;
         this.hint = hint;
-    }
+}
 
     public String getUser() {
         return user;

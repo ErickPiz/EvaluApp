@@ -34,6 +34,13 @@
         android:layout_margin="15dp"
         android:hint="Email" />
 
+    <EditText
+        android:id="@+id/txtHint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:hint="some hint about your password?" />
+
     <CheckBox
         android:id="@+id/chbAdmin"
         android:layout_width="match_parent"
@@ -41,11 +48,13 @@
         android:layout_margin="15dp"
         android:inputType="textEmailAddress"
         android:text="Is admin?" />
-
-    <EditText
-        android:id="@+id/txtHint"
+    <Button
+        android:id="@+id/btnCreate"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="15dp"
-        android:hint="some hint about your password?" />
+        android:layout_margin="5dp"
+        android:background="@color/colorPrimaryLight"
+        android:text="Create"
+        android:textColor="@color/colorPrimaryText" />
+
 </LinearLayout>

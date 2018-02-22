@@ -18,7 +18,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".activities.Docente" />
+        <activity android:name=".activities.Main" />
         <activity android:name=".activities.ImplicitActivity" android:parentActivityName=".activities.Access">
             <meta-data android:name="android.support.PARENT_ACIVITY" android:value="pizware.evaluapp.Access"/>
         </activity>
